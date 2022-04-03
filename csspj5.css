@@ -1,0 +1,95 @@
+.card {
+    border: none;
+    border-radius: 0px;
+    background-color: #fff
+}
+
+.text1 {
+    font-weight: bold;
+    font-size: 13px;
+    color: #757474;
+}
+
+.info {
+    line-height: 17px
+}
+nav a{font-weight: bold; 
+    font-family: 'STIX Two Text', serif; }
+.cost span {
+    color: #fb3531;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.star {
+    color: #FBC02D
+}
+
+.watchcost span {
+    color: #286783;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.watch {
+    background: #286783
+}
+
+.tshirtcost span {
+    color: #0012b2;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.tshirt {
+    background-color: #0012b2
+}
+
+.cursor {
+    cursor: pointer
+}
+
+main {
+    background-color: rgb(31, 172, 87);
+}
+footer{
+    background-color: #caced1; 
+    border-radius: 0px 0px 15px 15px;
+}
+footer .bgadd{
+    background-color: rgba(251,251,251,0.2);
+}
+footer .myft2{
+    background-color: rgba(0,0,0,0.2); 
+    border-radius: 0px 0px 10px 10px;
+}
+footer img{width: 25%;}
+footer p, a{
+    font-weight: bold; 
+    text-align: center; 
+    text-decoration: none;}
+    @media screen and (max-width: 992px){
+        footer img{display: none;}
+    }
+    @media screen and (max-width: 576px){
+        h5{font-size:12px;}
+        p{font-size: 11px;}
+        footer a, footer p{font-size: 10px;}
+    }
+    @media screen and (min-width: 576px){
+        h5{font-size:16px;}
+        p{font-size: 14px;}
+        footer a, footer p{font-size: 12px;}
+    }
+    @media screen and (min-width: 768px){
+        footer a{font-size: 13px;}
+    }
+    @media screen and (min-width: 992px){
+        footer a{font-size: 14px;}
+    }
+    @media screen and (min-width: 1200px){
+        h5{font-size:18px;}
+        p{font-size: 16px;}
+        footer a, footer p{font-size: 15px;}
+    }
+    .note{color: red; font-weight: bold;}

@@ -1,0 +1,81 @@
+*{box-sizing: border-box;}
+[class*="col-"] {
+     float: left; padding: 0% 3%;
+    }
+
+body {background-color: rgb(235, 237, 238);
+    width: auto; max-width: 1200px; margin: 2% 4%; padding: auto;
+}
+
+img{width: 100%; padding: 0% 0%;}
+h1{
+    font-weight: bold;
+     color:rgb(70, 106, 121);
+    }
+h3{
+    font-weight: bold; 
+    color:rgb(70, 106, 121);
+}
+h4{
+    font-weight: bold; 
+    color:rgb(70, 106, 121);}
+h5{
+    font-weight: bold; 
+    color:rgb(24, 180, 241);
+}
+h6{
+    font-weight: bold; 
+    color:rgb(86, 87, 92);
+}
+p{text-align: justify;}
+nav{
+    position:absolute; 
+    width: 100%; 
+    max-width: 2100px;
+    border-radius: 10px 15px 0px 0px;}
+nav a{font-weight: bold; 
+    font-family: 'STIX Two Text', serif; }
+.map{position:inline; 
+    text-align: center;}
+footer{
+    background-color: #caced1; 
+    border-radius: 0px 0px 15px 15px;
+}
+footer .bgadd{
+    background-color: rgba(251,251,251,0.2);
+}
+footer .myft2{
+    background-color: rgba(0,0,0,0.2); 
+    border-radius: 0px 0px 10px 10px;
+}
+footer img{width: 25%;}
+footer p, a{
+    font-weight: bold; 
+    text-align: center; 
+    text-decoration: none;
+}
+@media screen and (max-width: 992px){
+    footer img{display: none;}
+}
+@media screen and (max-width: 576px){
+    h5{font-size:12px;}
+    p{font-size: 11px;}
+    footer a, footer p{font-size: 10px;}
+}
+@media screen and (min-width: 576px){
+    h5{font-size:16px;}
+    p{font-size: 14px;}
+    footer a, footer p{font-size: 12px;}
+}
+@media screen and (min-width: 768px){
+    footer a{font-size: 13px;}
+}
+@media screen and (min-width: 992px){
+    footer a{font-size: 14px;}
+}
+@media screen and (min-width: 1200px){
+    h5{font-size:18px;}
+    p{font-size: 16px;}
+    footer a, footer p{font-size: 15px;}
+}
+.note{color: red; font-weight: bold;}
